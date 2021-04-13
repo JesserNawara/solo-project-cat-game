@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="secondPage">
+<head>
+	<link rel="stylesheet" type="text/css" href="secondPage.css">
+	<title> My pet </title>
+		<link rel="shortcut icon" type="image/png" href="new pics/icon.jpg">
+		 <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+</head>
+<body>
+	<div class="second">	
+		<div class="pics">
+			<img class="image" src="new pics/confused.jpg" width="20%" onclick="log(event)">
+			<img class="image" src="new pics/happy.jpg" width="20%"  onclick="log(event)">
+			<img class="image" src="new pics/sad.jpg" width="20%"  onclick="log(event)">
+			<img class="image" src="new pics/melting.jpg" width="20%"  onclick="log(event)">
+			<img class="image" src="new pics/stoopid.jpg" width="20%"  onclick="log(event)">
+				
+		</div>
+			<div id="nameBtn">
+				<label id="catName"></label><br>
+        		<input type="text" id="user" name="userName">
+        		<a href="third.html"><button id="btn" onclick="startGame()"> confirm </button></a>
+		</div>
+	</div>
+	
+<!-- <div>
+	<progress onclick="tired()" value="1" max="10">
+	<progress onclick="hungry()" value="1" max="10">
+	<progress onclick="happy()" value="1" max="10">
+</div> -->
+<script type="text/javascript" src="cat.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+	background-image: url("new pics/front.jpg"); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size : 80% 90%;
+	background-attachment: fixed;
+	background-color: pink;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+}
+
+.start{
+	transition-duration: 0.7s;
+	background-color: rgba(151, 12, 149, 0.4);
+	position: absolute;
+	bottom: 30%;
+	left: 41%;
+	border-radius: 20px;
+	border: 3px solid purple;
+	font-size: 30px;
+	margin:20px;
+	padding: 5px 20px 5px 20px;
+	cursor: pointer;
+
+}
+.start:hover{
+	background-color:#e070b7; 
+  	color: white;
+}
+
+.Titles span{
+	display: block;
+	color:#71d5f4;
+	-webkit-text-fill-color: rgba(151, 12, 149, 0.4);
+	-webkit-text-stroke-width:2px ;
+
+}
+.Titles{
+	text-align: center;
+	position: absolute;
+	top: 7%;
+	left: 30%;
+	right: 30%;
+}
+.Title1{
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.Title2{
+	font-size:  10px;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 1px;
+
+}
+#username{
+	transition-duration: 0.7s;
+	background-color: rgba(151, 12, 149, 0.4);
+	position: absolute;
+	text-align: center;
+	bottom: 60%;
+	left: 31%;
+	border-radius: 20px;
+	border: 3px solid purple;
+	font-size: 30px;
+	margin:20px;
+	padding: 5px 20px 5px 20px;
+	cursor: crosshair;
+}
+#password{
+	transition-duration: 0.7s;
+	background-color: rgba(151, 12, 149, 0.4);
+	text-align: center;
+	position: absolute;
+	bottom: 45%;
+	left: 31%;
+	border-radius: 20px;
+	border: 3px solid purple;
+	font-size: 30px;
+	margin:20px;
+	padding: 5px 20px 5px 20px;
+	cursor: crosshair;
+}

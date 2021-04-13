@@ -1,0 +1,69 @@
+body{
+	background-image: url("new pics/front.jpg"); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size : 80% 90%;
+	background-attachment: fixed;
+	background-color: pink;
+}
+
+
+#container{
+	height: 200px;
+	width: 500px;
+	margin:50px auto;
+	text-align: center;
+}
+
+#sleep{
+transition-duration: 0.7s;
+height: 25px;
+width: 100px;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: rgba(151, 12, 149, 0.4);
+border-radius: 20px;
+}
+#sleep:hover{
+	cursor: pointer;
+	background-color: white;
+}
+
+#feed{
+transition-duration: 0.7s;
+height: 25px;
+width: 100px;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: rgba(151, 12, 149, 0.4);
+border-radius: 20px;
+}
+#feed:hover{
+	cursor: pointer;
+	background-color: white;
+}
+
+
+#play{
+transition-duration: 0.7s;
+height: 25px;
+width: 100px;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: rgba(151, 12, 149, 0.4);
+border-radius: 20px;
+}
+#play:hover{
+	cursor: pointer;
+	background-color: white;
+}
+#tired{
+font-size: 30px
+}
+#hungry{
+font-size: 30px
+
+}
+#sad{
+font-size: 30px
+}
